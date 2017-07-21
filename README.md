@@ -1,4 +1,15 @@
 # PyFrm 
+## 文档介绍
+本文档使用 [mkdocs](http://www.mkdocs.org/) 编写，`pip install mkdocs` 安装mkdocs。
+
+> 如果对 easy_install, pip, python setup.py install 这些有疑问。
+> 
+> 参见: [http://zengrong.net/post/2169.htm](http://zengrong.net/post/2169.htm)
+
+**推荐markdown编写文档。**
+
+markdown为Web博客书写而设计，目前主流网站均支持。语法介绍： [http://www.appinn.com/markdown/](http://www.appinn.com/markdown/)
+
 ## 本地使用
 git clone项目后，进入项目目录，启动命令：
 
