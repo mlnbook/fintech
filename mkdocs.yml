@@ -1,4 +1,8 @@
 site_name: Python金融风控
+site_description: 'PyFRM; python fintech; Python智能金融风控; Python高阶教学'
+site_author: 'Devin Mah'
+site_url: 'http://pyfrm.com'
+site_favicon: 'images/python.ico'
 pages:
     - PyFRM: index.md
     - 工程基础:
@@ -58,6 +62,9 @@ pages:
       - sk-learn: 数据科学/sk-learn.md
 theme: 'material'
 theme_dir: 'theme'
+copyright: 'Copyright &copy; 2017 Devin Mah'
+repo_name: 'pyfrm/fintech'
+repo_url: 'https://github.com/pyfrm/fintech'
 extra:
   palette:
     primary: 'cyan'
