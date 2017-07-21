@@ -1,0 +1,39 @@
+<!--
+  Copyright (c) 2016-2017 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Translations -->
+{% macro t(key) %}{{ {
+  "language": "en",
+  "edit.link.title": "编辑本页",
+  "footer.previous": "上一页",
+  "footer.next": "下一页",
+  "meta.comments": "Comments",
+  "meta.source": "Source",
+  "search.languages": "",
+  "search.placeholder": "查询",
+  "search.result.placeholder": "暂不支持中文查询",
+  "search.result.none": "未匹配到内容",
+  "search.result.one": "1 matching document",
+  "search.result.other": "# matching documents",
+  "source.link.title": "Go to repository",
+  "toc.title": "目录"
+}[key] }}{% endmacro %}
