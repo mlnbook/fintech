@@ -78,5 +78,5 @@ extra:
       link: 'http://www.weibo.com/madeling/'
   markdown_extensions:
     - admonition
-    - codehilite(guess_lang=false)
+    - codehilite
     - toc(permalink=true)
